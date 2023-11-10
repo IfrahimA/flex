@@ -143,10 +143,12 @@ ul
 .quote
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 100px; 
     background-color: #E5E7EB;
+
 
 
 }
@@ -159,5 +161,17 @@ ul
     font-size: 36px;
     font-style: italic;
     font-weight: lighter; 
+    background-color: #E5E7EB;
+
+}
+
+.author
+{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; 
+    font-style: italic;
+    font-weight: bolder; 
     background-color: #E5E7EB;
 }
